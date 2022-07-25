@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HBDStack.MediatR.DDD", "HBDStack.MediatR.DDD\HBDStack.MediatR.DDD.csproj", "{B247906C-2622-40CE-B061-E6D04D6AFE9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E2C6EA63-5319-482C-BDC9-1481E1578ECD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{2702AF73-29AD-4482-8D72-13335FEE9905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HBD.MediatR.DDD.Tests", "HBD.MediatR.DDD.Tests\HBD.MediatR.DDD.Tests.csproj", "{C04A0184-42D4-48C1-A310-D45A728BAE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HBDStack.Results", "HBDStack.Results\HBDStack.Results.csproj", "{155E941B-4544-4959-AEF0-FD9D8A402D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HBD.Results.Tests", "HBD.Results.Tests\HBD.Results.Tests.csproj", "{A4F47AD1-2032-4B5E-8A75-569DA1CA87A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{0AB1F478-E153-4E03-A4C7-19D3EA867D33}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B247906C-2622-40CE-B061-E6D04D6AFE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B247906C-2622-40CE-B061-E6D04D6AFE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B247906C-2622-40CE-B061-E6D04D6AFE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B247906C-2622-40CE-B061-E6D04D6AFE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04A0184-42D4-48C1-A310-D45A728BAE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04A0184-42D4-48C1-A310-D45A728BAE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04A0184-42D4-48C1-A310-D45A728BAE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04A0184-42D4-48C1-A310-D45A728BAE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{155E941B-4544-4959-AEF0-FD9D8A402D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155E941B-4544-4959-AEF0-FD9D8A402D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155E941B-4544-4959-AEF0-FD9D8A402D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155E941B-4544-4959-AEF0-FD9D8A402D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F47AD1-2032-4B5E-8A75-569DA1CA87A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F47AD1-2032-4B5E-8A75-569DA1CA87A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F47AD1-2032-4B5E-8A75-569DA1CA87A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F47AD1-2032-4B5E-8A75-569DA1CA87A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B247906C-2622-40CE-B061-E6D04D6AFE9A} = {2702AF73-29AD-4482-8D72-13335FEE9905}
+		{C04A0184-42D4-48C1-A310-D45A728BAE29} = {E2C6EA63-5319-482C-BDC9-1481E1578ECD}
+		{155E941B-4544-4959-AEF0-FD9D8A402D60} = {2702AF73-29AD-4482-8D72-13335FEE9905}
+		{A4F47AD1-2032-4B5E-8A75-569DA1CA87A1} = {E2C6EA63-5319-482C-BDC9-1481E1578ECD}
+	EndGlobalSection
+EndGlobal
