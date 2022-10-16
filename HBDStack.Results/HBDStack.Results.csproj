@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageVersion>$(version)</PackageVersion>
+        <Copyright>@drunkcoding.net 2020</Copyright>
+        <Description>The simplified version of Fulent Result. 
+For benefits please find more details here https://github.com/baoduy/HBD.FluentResults</Description>
+        <Copyright>@2021, drunkcoding</Copyright>
+        <PackageLicense>https://opensource.org/licenses/MIT</PackageLicense>
+        <RepositoryUrl>https://github.com/HBDStack/HBDStack.MediatR.Extensions</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Owners>Duy Hoang</Owners>
+        <PackageTags>EfCore, MediatR</PackageTags>
+        <PackageIconUrl></PackageIconUrl>
+        <LangVersion>default</LangVersion>
+        <Authors>Duy Hoang</Authors>
+        <LangVersion>default</LangVersion>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageProjectUrl>https://github.com/HBDStack/HBDStack.MediatR.Extensions</PackageProjectUrl>
+    </PropertyGroup>
+
+</Project>
