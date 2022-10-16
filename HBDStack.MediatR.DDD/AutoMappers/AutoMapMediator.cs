@@ -1,4 +1,4 @@
-using AutoMapper;
+using HBDStack.ObjectMapper.Abstraction;
 using HBDStack.Results;
 using MediatR;
 
@@ -12,9 +12,9 @@ public interface IAutoMapMediator : IMediator
 internal class AutoMapMediator : IAutoMapMediator
 {
     private readonly IMediator _mediator;
-    private readonly IMapper _mapper;
+    private readonly IObjectMapper _mapper;
 
-    public AutoMapMediator(IMediator mediator, IMapper mapper)
+    public AutoMapMediator(IMediator mediator, IObjectMapper mapper)
     {
         _mediator = mediator;
         _mapper = mapper;
